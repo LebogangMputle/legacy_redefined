@@ -10,3 +10,7 @@
     position: relative;
     left:10vh;
 }
+
+.pNames{
+    font-weight: bold;
+}
