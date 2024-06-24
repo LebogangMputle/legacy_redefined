@@ -1,0 +1,101 @@
+/* Target the container element from the Courses component */
+.courses {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 50vh;
+  position: relative; /* Required for background image positioning */
+  overflow: hidden; /* Prevent image overflow if its aspect ratio doesn't match the container */
+}
+
+/* Style the background image element */
+.background-image {
+  width: 100%;  /* Stretch to fill container width */
+  height: 100%; /* Stretch to fill container height */
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJFT9qQIfHwyTt65KjJApgl65Ej7nlfDjSGBqmX0V3wTdx9px4HFN-Be3-KURhdjvr3xtaRgy_LV3gyav1qfHDzPt7azvb2bk7frXDX6H30JeJBGBEzDCJDRbLLy-IBHN-odrvEel8EkBU/s320/2.png"); /* Set the image URL */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image within the container */
+  animation: fadeIn 1s ease-in-out forwards; /* Apply the fade-in animation */
+}
+
+.background-image:hover {
+  /* Add hover effect for the background image (optional) */
+  opacity: 0.8; /* Example: Reduce opacity on hover */
+  filter: grayscale(0.5); /* Example: Add grayscale effect on hover */
+}
+
+/* Style the content area */
+.courses .content {
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.8); /* Semi-transparent white background */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative; /* Required for absolute positioning of content within the background image */
+  z-index: 1; /* Ensure content remains on top of the background image */
+  color: #333; /* Set text color for better contrast */
+}
+
+/* Style headings and paragraphs */
+.courses h1,
+.courses p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.courses h1 {
+  font-size: 2rem;
+}
+
+.courses p {
+  font-size: 1rem;
+}
+
+/* Style the call to action (CTA) link */
+.courses a {
+  color: #007bff; /* Blue color for links */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.courses a:hover {
+  text-decoration: underline;
+}
+
+/* Animation styles (unchanged) */
+
+/* Fade-in animation */
+.animated.fadeIn {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Bounce animation for h1 */
+.animated.bounceIn {
+  animation: bounceIn 1s ease-in-out forwards;
+}
+
+@keyframes bounceIn {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Zoom animation for h2 */
+.animated.zoomIn {
+  animation: zoomIn 0.5s ease-in-out forwards;
+}
+
