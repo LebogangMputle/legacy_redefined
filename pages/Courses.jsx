@@ -1,10 +1,11 @@
 import React from "react";
+import './Courses.css';
 
 const Courses = () => {
   return (
     <div style={{minHeight:"50vh"}}>
       <h1 id='courses'>Courses</h1>
-      <p>Browse Courses</p>
+      <p id="Browse-courses">Browse Courses</p>
       <ul>
         <h2>Individual Workshops</h2>
         <li>Personal Mastery</li>
