@@ -1,12 +1,27 @@
-import React from 'react'
+import React from "react";
 
-const AboutUs = () => {
+const About = () => {
   return (
-    <div style={{minHeight:"50vh"}}>
-      <h1 id='about'>About Us section</h1>
-    </div>
-  )
-}
+    <div id='about'>
+      <h1>About us</h1>
+       <div id='Who_We_Are'>
+        <h2>Who We Are</h2>
 
-export default AboutUs
+       </div>
+
+       <div id='Our_Vision'>
+        <h2>Our Vision</h2>
+
+       </div>
+       
+       <div id='Our_Team'>
+        <h2>Our Team</h2>
+
+       </div>
+
+    </div>
+  );
+};
+
+export default About;
 
