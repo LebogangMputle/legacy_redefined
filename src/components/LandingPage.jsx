@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./Header";
 import Courses from "../../pages/Courses";
-import About from "../../pages/About";
+import About from "../../pages/AboutUs";
 
 const LandingPage = () => {
   return (
