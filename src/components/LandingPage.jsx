@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./Header";
+import Courses from "../../pages/Courses/Courses";
 import AboutUs from "../../pages/AboutUs";
 import Insights from "./Insights";
 
-import Courses from "../../pages/Courses/Courses";
-import About from "../../pages/AboutUs";
-// import './LandingPage.css'
+
 
 
 const LandingPage = () => {
@@ -14,8 +13,6 @@ const LandingPage = () => {
     <div className="landing-page">
       <Header />
 
-      <section className="hero">
-      </section>
       <img
         src="https://media.licdn.com/dms/image/C4D0BAQHyCvbAh6do1g/company-logo_200_200/0/1669926955056?e=1727308800&v=beta&t=89bPiTA-CwAzAP3YjkakrCB1u4OZvykuEdZZUl5BCgc"
         alt="Courses Logo"
@@ -27,10 +24,8 @@ const LandingPage = () => {
         <p>Your distinguished business process and risk experts</p>
       </div>
       <Courses />
-      <About />
-      <Insights/>
-
-
+      <AboutUs/>
+      <Insights />
     </div>
   );
 };

@@ -6,7 +6,9 @@
 .landing-page {
   font-family: Arial, sans-serif;
 }
-
+.logo img {
+  width: 50px;
+}
 .header {
   display: flex;
   justify-content: space-between;
