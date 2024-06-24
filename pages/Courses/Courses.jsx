@@ -4,15 +4,18 @@ import "./Courses.css"; // Assuming courses.css is in the same directory
 const Courses = () => {
   return (
     <div className="courses">
-      <img
-        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJFT9qQIfHwyTt65KjJApgl65Ej7nlfDjSGBqmX0V3wTdx9px4HFN-Be3-KURhdjvr3xtaRgy_LV3gyav1qfHDzPt7azvb2bk7frXDX6H30JeJBGBEzDCJDRbLLy-IBHN-odrvEel8EkBU/s320/2.png"
-        alt="Courses Logo" // Add a descriptive alt text for accessibility
-      />
+      <div className="background-image animated fadeIn">
+      {/* <img
+        src="https://media.licdn.com/dms/image/C4D0BAQHyCvbAh6do1g/company-logo_200_200/0/1669926955056?e=1727308800&v=beta&t=89bPiTA-CwAzAP3YjkakrCB1u4OZvykuEdZZUl5BCgc"
+        alt="Courses Logo" // Descriptive alt text for accessibility
+        className="animated fadeIn" // Apply both class names for animation
+      /> */}
+      </div>
+
       <div className="content">
-        <h1>Courses</h1>
-        <p id="Browse-courses">Browse Courses</p>
+      <h1 className="animated bounceIn">Courses</h1>
         <ul>
-          <h2>Individual Workshops</h2>
+        <h2 className="animated zoomIn">Individual Workshops</h2>
           <li>Personal Mastery</li>
           <li>Basic Accounting</li>
           <li>Business and personal finance</li>
