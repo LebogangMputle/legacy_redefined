@@ -13,7 +13,7 @@ const Courses = () => {
       </div>
 
       <div className="content">
-      <h1 className="animated bounceIn">Courses</h1>
+      <h1 className="animated bounceIn" id="courses">Courses</h1>
         <ul>
         <h2 className="animated zoomIn">Individual Workshops</h2>
           <li>Personal Mastery</li>

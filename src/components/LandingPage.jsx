@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./Header";
-import Courses from "../../pages/ContactUs";
+import Courses from "../../pages/Courses/Courses";
 import AboutUs from "../../pages/AboutUs";
 import Insights from "./Insights";
 
