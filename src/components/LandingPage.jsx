@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./Header";
 import Courses from "../../pages/Courses";
-import AboutUs from "../../pages/AboutUs";
+import About from "../../pages/About";
 
 const LandingPage = () => {
   return (
@@ -12,7 +12,7 @@ const LandingPage = () => {
         <h1>Here is a Hero section</h1>
       </section>
       <Courses/>
-      <AboutUs/>
+      <About/>
     </div>
   );
 };
