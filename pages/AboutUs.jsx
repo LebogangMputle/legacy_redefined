@@ -38,29 +38,41 @@ const About = () => {
        
        <div id='Our_Team'>
         <h2>Our Team</h2>
-          <div id='divSlide'>
-               <div className="members">
-                  <p className="pNames">Lesego Khoele (CIA),Mphil</p>
-                  <p className="pRole">Md and Founder<br/> SMME Business Developer</p>
-               </div>
-
-               <div className="members">
-                <p className="pNames">Karabo Kgomanyane</p>
-                <p className="pRole">Data-Led Marketing Specialist <br/>Thee Anchor MD & Founder</p>
-               </div>
-
-               <div className="members">
-                <p className="pNames">Mphoma Putsoane </p>
-                <p className="pRole">Business Accounting<br/>Development Specialist</p>
-               </div>
-
-               <div className="members">
-                <p className="pNames">Boipelo Maringa </p>
-                <p className="pRole">Business and Personal <br/>Finance Specialist</p>
-               </div>
-          </div>
        </div>
      </div>
+     <div id='divSlide'>
+               <div className="members">
+                  <img src="../src/assets/Screenshot (114).png" alt='Lesego' />
+                 <div>
+                  <p className="pNames">Lesego Khoele (CIA),Mphil</p>
+                  <p className="pRole">Md and Founder<br/> SMME Business Developer</p>
+                  </div>
+               </div>
+
+               <div className="members">
+               <img src="../src/assets/Screenshot (116).png" alt='Karabo' />
+               <div>
+                <p className="pNames">Karabo Kgomanyane</p>
+                <p className="pRole">Data-Led Marketing Specialist <br/>Thee Anchor MD & Founder</p>
+                </div>
+               </div>
+
+               <div className="members">
+               <img src="../src/assets/Screenshot (115).png" alt='Mphoma' />
+                <div>
+                <p className="pNames">Mphoma Putsoane </p>
+                <p className="pRole">Business Accounting<br/>Development Specialist</p>
+                </div>
+               </div>
+
+               <div className="members">
+               <img src="../src/assets/Screenshot (117).png" alt='Boipelo' />
+                <div>
+                <p className="pNames">Boipelo Maringa </p>
+                <p className="pRole">Business and Personal <br/>Finance Specialist</p>
+                </div>
+               </div>
+          </div>
     </div>
   );
 };

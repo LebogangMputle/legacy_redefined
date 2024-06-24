@@ -14,3 +14,24 @@
 .pNames{
     font-weight: bold;
 }
+
+img{
+    width: 20%;
+    margin: 5px;
+}
+
+.members{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(234, 173, 31);
+    padding: 10px;
+    margin: 5px;
+    width: 60vh;
+}
+
+#divSlide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
