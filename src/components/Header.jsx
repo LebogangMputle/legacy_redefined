@@ -6,10 +6,10 @@ const Header = () => {
     <header className="header">
         <Link to="/" className="logo">Legacy</Link>
         <nav className="nav">
-          <Link to="/services">Our Services</Link>
-          <Link to="/courses">Courses</Link>
-          <Link to="/aboutUs">About Us</Link>
-          <Link to="/ContactUs">Contact Us</Link>
+          <a to="#services">Our Services</a>
+          <a href="#courses">Courses</a>
+          <a href="#about">About</a>
+          <a to="#contact">Contact Us</a>
           <Link to="/login">Log In</Link>
         </nav>
       </header>

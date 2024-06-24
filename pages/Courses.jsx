@@ -3,7 +3,7 @@ import React from "react";
 const Courses = () => {
   return (
     <div style={{minHeight:"50vh"}}>
-      <h1>Courses here</h1>
+      <h1 id='courses'>Courses here</h1>
     </div>
   );
 };
