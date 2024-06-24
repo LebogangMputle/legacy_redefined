@@ -9,7 +9,7 @@ const Courses = () => {
         src="https://media.licdn.com/dms/image/C4D0BAQHyCvbAh6do1g/company-logo_200_200/0/1669926955056?e=1727308800&v=beta&t=89bPiTA-CwAzAP3YjkakrCB1u4OZvykuEdZZUl5BCgc"
         alt="Courses Logo" // Descriptive alt text for accessibility
    Name="animated fadeIn" // Apply both class names for animation
-      /> */}     class
+      /> */}
       </div>
 
       <div className="content">

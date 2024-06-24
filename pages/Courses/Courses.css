@@ -9,12 +9,13 @@
 
 /* Style the background image element */
 .background-image {
-  width: 100%;  /* Stretch to fill container width */
-  height: 100%; /* Stretch to fill container height */
-  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJFT9qQIfHwyTt65KjJApgl65Ej7nlfDjSGBqmX0V3wTdx9px4HFN-Be3-KURhdjvr3xtaRgy_LV3gyav1qfHDzPt7azvb2bk7frXDX6H30JeJBGBEzDCJDRbLLy-IBHN-odrvEel8EkBU/s320/2.png"); /* Set the image URL */
+  width: 50%;  /* Stretch to fill container width */
+  height: 50%; /* Stretch to fill container height */
+  background-image: url("https://clipart-library.com/clipart/graduation-cap-clip-art-34.htm"); /* Set the image URL */
   background-size: cover; /* Cover the entire container */
   background-position: center; /* Center the image within the container */
   animation: fadeIn 1s ease-in-out forwards; /* Apply the fade-in animation */
+  padding: 50px;
 }
 
 .background-image:hover {
