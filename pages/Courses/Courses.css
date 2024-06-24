@@ -1,0 +1,52 @@
+/* Target the container element from the Courses component */
+.courses {
+    display: grid; /* Use grid layout for more flexibility */
+    grid-template-columns: 1fr 2fr; /* Divide container into two columns */
+    min-height: 50vh; /* Maintain minimum height from Courses component */
+    background-color: blue;
+  }
+  
+  /* Style the image element */
+  .courses img {
+    width: 100%; /* Set image width to 100% of its column */
+    object-fit: cover; /* Scale image to fill the space while maintaining aspect ratio */
+    border-radius: 4px; /* Add subtle rounded corners */
+  }
+  
+  /* Style the content area */
+  .courses .content {
+    padding: 20px; /* Add padding for content */
+    background-color: #f5f5f5; /* Light gray background */
+    display: flex; /* Make content area flexible for vertical alignment */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Distribute content with space at top and bottom */
+  }
+  
+  /* Style headings and paragraphs */
+  .courses h1,
+  .courses p {
+    margin: 0; /* Remove default margin for cleaner look */
+    font-family: Arial, sans-serif; /* Specify a modern font */
+  }
+  
+  .courses h1 {
+    font-size: 2rem; /* Set heading size */
+    color: #f7f2f2; /* Darker text color */
+  }
+  
+  .courses p {
+    font-size: 1rem; /* Set paragraph size */
+    color: #666; /* Lighter text color */
+  }
+  
+  /* Style the call to action (CTA) link */
+  .courses a {
+    color: #333; /* Darker text color for link */
+    font-weight: bold; /* Bold text for emphasis */
+    text-decoration: none; /* Remove underline from link */
+  }
+  
+  .courses a:hover {
+    text-decoration: underline; /* Underline link on hover for better visibility */
+  }
+  

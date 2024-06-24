@@ -5,7 +5,7 @@ const Courses = () => {
   return (
     <div style={{minHeight:"50vh"}}>
       <h1 id='courses'>Courses</h1>
-      <p id="Browse-courses">Browse Courses</p>
+      <h2 id="Browse-courses">Browse Courses</h2>
       <ul>
         <h2>Individual Workshops</h2>
         <li>Personal Mastery</li>
