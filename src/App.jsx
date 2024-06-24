@@ -1,8 +1,12 @@
 // import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
+<<<<<<< HEAD
+import Courses from "../pages/Courses";
+=======
 // import Home from "./components/Home";
 import Courses from "../pages/Courses/Courses";
+>>>>>>> 7bfbbc3f29b323d0efa93057427af71b99c98a5a
 import AboutUs from "../pages/AboutUs";
 import ContactUs from "../pages/ContactUs";
 import OurServices from "../pages/OurServices";
