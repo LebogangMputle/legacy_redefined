@@ -1,52 +1,102 @@
 /* Target the container element from the Courses component */
 .courses {
-    display: grid; /* Use grid layout for more flexibility */
-    grid-template-columns: 1fr 2fr; /* Divide container into two columns */
-    min-height: 50vh; /* Maintain minimum height from Courses component */
-    background-color: blue;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  min-height: 50vh;
+  position: relative; /* Required for background image positioning */
+  overflow: hidden; /* Prevent image overflow if its aspect ratio doesn't match the container */
+}
+
+/* Style the background image element */
+.background-image {
+  width: 50%;  /* Stretch to fill container width */
+  height: 50%; /* Stretch to fill container height */
+  background-image: url("https://clipart-library.com/clipart/graduation-cap-clip-art-34.htm"); /* Set the image URL */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image within the container */
+  animation: fadeIn 1s ease-in-out forwards; /* Apply the fade-in animation */
+  padding: 50px;
+}
+
+.background-image:hover {
+  /* Add hover effect for the background image (optional) */
+  opacity: 0.8; /* Example: Reduce opacity on hover */
+  filter: grayscale(0.5); /* Example: Add grayscale effect on hover */
+}
+
+/* Style the content area */
+.courses .content {
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.8); /* Semi-transparent white background */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative; /* Required for absolute positioning of content within the background image */
+  z-index: 1; /* Ensure content remains on top of the background image */
+  color: #333; /* Set text color for better contrast */
+}
+
+/* Style headings and paragraphs */
+.courses h1,
+.courses p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.courses h1 {
+  font-size: 2rem;
+}
+
+.courses p {
+  font-size: 1rem;
+}
+
+/* Style the call to action (CTA) link */
+.courses a {
+  color: #007bff; /* Blue color for links */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.courses a:hover {
+  text-decoration: underline;
+}
+
+/* Animation styles (unchanged) */
+
+/* Fade-in animation */
+.animated.fadeIn {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  /* Style the image element */
-  .courses img {
-    width: 100%; /* Set image width to 100% of its column */
-    object-fit: cover; /* Scale image to fill the space while maintaining aspect ratio */
-    border-radius: 4px; /* Add subtle rounded corners */
+  to {
+    opacity: 1;
   }
-  
-  /* Style the content area */
-  .courses .content {
-    padding: 20px; /* Add padding for content */
-    background-color: #f5f5f5; /* Light gray background */
-    display: flex; /* Make content area flexible for vertical alignment */
-    flex-direction: column; /* Stack content vertically */
-    justify-content: space-between; /* Distribute content with space at top and bottom */
+}
+
+/* Bounce animation for h1 */
+.animated.bounceIn {
+  animation: bounceIn 1s ease-in-out forwards;
+}
+
+@keyframes bounceIn {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
   }
-  
-  /* Style headings and paragraphs */
-  .courses h1,
-  .courses p {
-    margin: 0; /* Remove default margin for cleaner look */
-    font-family: Arial, sans-serif; /* Specify a modern font */
+  40% {
+    transform: translateY(-30px);
   }
-  
-  .courses h1 {
-    font-size: 2rem; /* Set heading size */
-    color: #f7f2f2; /* Darker text color */
+  60% {
+    transform: translateY(-10px);
   }
-  
-  .courses p {
-    font-size: 1rem; /* Set paragraph size */
-    color: #666; /* Lighter text color */
-  }
-  
-  /* Style the call to action (CTA) link */
-  .courses a {
-    color: #333; /* Darker text color for link */
-    font-weight: bold; /* Bold text for emphasis */
-    text-decoration: none; /* Remove underline from link */
-  }
-  
-  .courses a:hover {
-    text-decoration: underline; /* Underline link on hover for better visibility */
-  }
-  
+}
+
+/* Zoom animation for h2 */
+.animated.zoomIn {
+  animation: zoomIn 0.5s ease-in-out forwards;
+}
+

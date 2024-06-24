@@ -1,12 +1,12 @@
-import React from "react";
+// import React from "react";
 
-const Home = () => {
-  return (
-    <div>
-      <h1>Here is hero sectio</h1>
-    </div>
-  );
-};
+// const Home = () => {
+//   return (
+//     <div>
 
-export default Home;
+//     </div>
+//   );
+// };
+
+// export default Home;
 

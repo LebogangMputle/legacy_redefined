@@ -1,7 +1,7 @@
 // import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
-// import Home from "./components/Home";
+//  import Home from "./components/Home";
 import Courses from "../pages/Courses/Courses";
 import AboutUs from "../pages/AboutUs";
 import ContactUs from "../pages/ContactUs";
