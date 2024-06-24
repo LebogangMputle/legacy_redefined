@@ -1,11 +1,26 @@
 import React from "react";
 
-const CourseDetail = () => {
+const About = () => {
   return (
-    <div>
-      <h1>Course Detail Page</h1>
+    <div id='about'>
+      <h1>About us</h1>
+       <div id='Who_We_Are'>
+        <h2>Who We Are</h2>
+
+       </div>
+
+       <div id='Our_Vision'>
+        <h2>Our Vision</h2>
+
+       </div>
+       
+       <div id='Our_Team'>
+        <h2>Our Team</h2>
+
+       </div>
+
     </div>
   );
 };
 
-export default CourseDetail;
+export default About;
