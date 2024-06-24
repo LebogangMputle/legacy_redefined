@@ -1,0 +1,13 @@
+.insights {
+    min-height: 60vh;
+  }
+  .video-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .box {
+    border: 1px solid;
+    height: 300px;
+  }
