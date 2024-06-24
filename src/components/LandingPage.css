@@ -12,7 +12,7 @@
   .background-image {
     width: 100%; /* Stretch to fill container width */
     height: 100%; /* Stretch to fill container height */
-    background-image: url("https://media.licdn.com/dms/image/C4D0BAQHyCvbAh6do1g/company-logo_200_200/0/1669926955056?e=1727308800&v=beta&t=89bPiTA-CwAzAP3YjkakrCB1u4OZvykuEdZZUl5BCgc"); /* Set the image URL */
+    /* background-image: url("https://media.licdn.com/dms/image/C4D0BAQHyCvbAh6do1g/company-logo_200_200/0/1669926955056?e=1727308800&v=beta&t=89bPiTA-CwAzAP3YjkakrCB1u4OZvykuEdZZUl5BCgc"); Set the image URL */
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the image within the container */
     animation: fadeIn 1s ease-in-out forwards; /* Apply the fade-in animation */
