@@ -77,7 +77,7 @@ const Courses = () => {
         </div>
         <p>Business development program package</p>
         <p>Online and/or in-person options</p>
-        <p>Book via our email: <a href="https://legacy.redefined1@gmail.com">legacy legacy.redefined1@gmail.com</a></p>
+        <p>Book via our email: <a href="https://legacy.redefined1@gmail.com">legacy.redefined1@gmail.com</a></p>
       </div>
     </div>
   );
