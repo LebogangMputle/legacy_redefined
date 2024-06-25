@@ -13,4 +13,31 @@
 
 .pNames{
     font-weight: bold;
+    width: 45vh;
+}
+
+img{
+    width: 30%;
+    margin: 5px;
+}
+
+.members{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: #3e007b;
+    padding: 5px;
+    margin: 5px;
+    color:white;
+}
+
+#divSlide{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;;
+    width: 75vh;
+    position: relative;
+    left: 10vh;
 }
