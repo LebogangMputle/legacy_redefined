@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './About.css'
 
 const About = () => {
+
+  useEffect(()=>{
+    const m1 = document.getElementById('M1');
+    const m2 = document.getElementById('M2');
+    const m3 = document.getElementById('M3');
+    const m4 = document.getElementById('M4');
+
+      const rect = m1.getBoundingClientRect();
+      const rect1 = m2.getBoundingClientRect();
+      const rect2 = m3.getBoundingClientRect();
+      const rect3 = m4.getBoundingClientRect();
+
+      console.log('m1X:'+ rect.x +',m1y:'+ rect.y);
+      console.log('m2X:'+ rect1.x +',m2y:'+ rect1.y);
+      console.log('m3X:'+ rect2.x +',m3y:'+ rect2.y);
+      console.log('m4X:'+ rect3.x +',m4y:'+ rect3.y);
+      
+  },[]);
+
   return (
     <div id='about'>
       <h1>About us</h1>
@@ -10,18 +29,17 @@ const About = () => {
        
         <h2>Who We Are</h2>
           <p className='p1'>
-            We are an Small Medium Enterprise (SME) consulting house and insights-led through strategic research.
+            We are an Small Medium Enterprise (<b>SME</b>) consulting house and insights-led through strategic research.
             We follow a risk-based approach which is key as adequate management of risk enforces sustainability within SMEs.
              <br/>
              <br/>
-            Our services:
+            Our services<b>:</b><br/>
             Design, facilitate and monitoring of SME business process and risk management development programs
             Strategic consulting and coaching
             SME training on key business concepts
             Digital marketing services and analytics through our supporting agency Thee Anchor
 
           </p>
-
           
        </div>
 
@@ -30,8 +48,6 @@ const About = () => {
         <p className='p1'>
         We aim to witness enduring businesses supported by efficient processes, innovative Information Technology solutions, and timeless brands.
         We motivate organisations to integrate strong processes, backed by resilient Information Technology solutions and infused with creativity to build brands that guarantee top-of-mind awareness
-
-
         </p>
 
        </div>
@@ -41,7 +57,8 @@ const About = () => {
        </div>
      </div>
      <div id='divSlide'>
-               <div className="members">
+               
+               <div id='M1' className="members">
                   <img src="../src/assets/Screenshot (114).png" alt='Lesego' />
                  <div>
                   <p className="pNames">Lesego Khoele (CIA),Mphil</p>
@@ -49,7 +66,7 @@ const About = () => {
                   </div>
                </div>
 
-               <div className="members">
+               <div id='M2' className="members">
                <img src="../src/assets/Screenshot (116).png" alt='Karabo' />
                <div>
                 <p className="pNames">Karabo Kgomanyane</p>
@@ -57,7 +74,7 @@ const About = () => {
                 </div>
                </div>
 
-               <div className="members">
+               <div id='M3' className="members">
                <img src="../src/assets/Screenshot (115).png" alt='Mphoma' />
                 <div>
                 <p className="pNames">Mphoma Putsoane </p>
@@ -65,7 +82,7 @@ const About = () => {
                 </div>
                </div>
 
-               <div className="members">
+               <div id='M4' className="members">
                <img src="../src/assets/Screenshot (117).png" alt='Boipelo' />
                 <div>
                 <p className="pNames">Boipelo Maringa </p>
