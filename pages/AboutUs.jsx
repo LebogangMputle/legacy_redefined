@@ -1,25 +1,9 @@
+
 import React, { useEffect } from "react";
+
 import './About.css'
 
 const About = () => {
-
-  useEffect(()=>{
-    const m1 = document.getElementById('M1');
-    const m2 = document.getElementById('M2');
-    const m3 = document.getElementById('M3');
-    const m4 = document.getElementById('M4');
-
-      const rect = m1.getBoundingClientRect();
-      const rect1 = m2.getBoundingClientRect();
-      const rect2 = m3.getBoundingClientRect();
-      const rect3 = m4.getBoundingClientRect();
-
-      console.log('m1X:'+ rect.x +',m1y:'+ rect.y);
-      console.log('m2X:'+ rect1.x +',m2y:'+ rect1.y);
-      console.log('m3X:'+ rect2.x +',m3y:'+ rect2.y);
-      console.log('m4X:'+ rect3.x +',m4y:'+ rect3.y);
-      
-  },[]);
 
   return (
     <div id='about'>
