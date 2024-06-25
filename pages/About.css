@@ -5,10 +5,16 @@
 
 }
 
+#abouth1 {
+
+    position: relative;
+    left: 50vh;
+}
+
 #div_wwa{
     width: 90vh;
     position: relative;
-    left:10vh;
+    left:50vh;
 }
 
 .pNames{
@@ -25,10 +31,10 @@ img{
     position: relative;
     display: flex;
     flex-direction: row;
-    background-color: #3e007b;
+    background-color: #e6aa06;
     padding: 5px;
     margin: 5px;
-    color:white;
+    color:rgb(5, 5, 5);
 }
 
 #divSlide{
@@ -39,5 +45,5 @@ img{
     white-space: nowrap;;
     width: 75vh;
     position: relative;
-    left: 10vh;
+    left: 50vh;
 }
