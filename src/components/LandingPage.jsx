@@ -4,6 +4,7 @@ import Header from "./Header";
 import Courses from "../../pages/Courses/Courses";
 import AboutUs from "../../pages/AboutUs";
 import Insights from "./Insights";
+import '../../src/components/LandingPage.css'
 
 
 
@@ -18,8 +19,9 @@ const LandingPage = () => {
         alt="Courses Logo"
         className="background-image animated fadeIn" // Apply animation class
       />
+
       <div className="content">
-        <h1>Legacy Redefined</h1>
+        <h1 className="H1">Legacy Redefined</h1>
         <p>Redefining business processes and risk</p>
         <p>Your distinguished business process and risk experts</p>
       </div>
