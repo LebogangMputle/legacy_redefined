@@ -5,10 +5,10 @@ import './About.css'
 
 const About = () => {
 
-  const src1 = "../src/assets/Screenshot (114).png"
-  const src2 = "../src/assets/Screenshot (116).png"
-  const src3 = "../src/assets/Screenshot (115).png"
-  const src4 = "../src/assets/Screenshot (117).png"
+  const src1 = "../public/src/assets/Screenshot (114).png"
+  const src2 = "../public/src/assets/Screenshot (116).png"
+  const src3 = "../public/src/assets/Screenshot (115).png"
+  const src4 = "../public/src/assets/Screenshot (117).png"
 
   useEffect(()=>{
     const m1 = document.getElementById('M1');
