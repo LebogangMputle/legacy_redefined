@@ -6,7 +6,7 @@ import './Insights.css'
 
 const Insights = () => {
 
-    const src = '../public/assets/video.mp4'
+    const src = '../assets/video.mp4'
   return (
     <div className='insights'>
         <h1>Acknowledgement & Insights</h1>
