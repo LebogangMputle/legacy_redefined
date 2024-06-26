@@ -71,7 +71,7 @@ const About = () => {
      <div id='divSlide'>
                
                <div id='M1' className="members">
-                  <img src={scr1} alt='Lesego' />
+                  <img src={src1} alt='Lesego' />
                  <div>
                   <p className="pNames">Lesego Khoele (CIA),Mphil</p>
                   <p className="pRole">Md and Founder<br/> SMME Business Developer</p>
