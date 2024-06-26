@@ -1,8 +1,12 @@
 import React from 'react'
 import './Insights.css'
-import sampleVideo from "../assets/video.mp4"
+// import sampleVideo from "/public/assets/video.mp4"
+
+
 
 const Insights = () => {
+
+    const src = '../assets/video.mp4'
   return (
     <div className='insights'>
         <h1>Acknowledgement & Insights</h1>
@@ -18,7 +22,7 @@ const Insights = () => {
                 <h2>Video Presentation</h2>
                 <div className='video-box'>
                     <video controls>
-                        <source src={sampleVideo} type="video/mp4" />
+                        <source src={src} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>
