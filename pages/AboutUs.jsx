@@ -5,6 +5,11 @@ import './About.css'
 
 const About = () => {
 
+  const src1 = "../src/assets/Screenshot (114).png"
+  const src2 = "../src/assets/Screenshot (116).png"
+  const src3 = "../src/assets/Screenshot (115).png"
+  const src4 = "../src/assets/Screenshot (117).png"
+
   useEffect(()=>{
     const m1 = document.getElementById('M1');
     const m2 = document.getElementById('M2');
@@ -66,7 +71,7 @@ const About = () => {
      <div id='divSlide'>
                
                <div id='M1' className="members">
-                  <img src="../src/assets/Screenshot (114).png" alt='Lesego' />
+                  <img src={src1} alt='Lesego' />
                  <div>
                   <p className="pNames">Lesego Khoele (CIA),Mphil</p>
                   <p className="pRole">Md and Founder<br/> SMME Business Developer</p>
@@ -74,7 +79,7 @@ const About = () => {
                </div>
 
                <div id='M2' className="members">
-               <img src="../src/assets/Screenshot (116).png" alt='Karabo' />
+               <img src={src2} alt='Karabo' />
                <div>
                 <p className="pNames">Karabo Kgomanyane</p>
                 <p className="pRole">Data-Led Marketing Specialist <br/>Thee Anchor MD & Founder</p>
@@ -82,7 +87,7 @@ const About = () => {
                </div>
 
                <div id='M3' className="members">
-               <img src="../src/assets/Screenshot (115).png" alt='Mphoma' />
+               <img src={src3} alt='Mphoma' />
                 <div>
                 <p className="pNames">Mphoma Putsoane </p>
                 <p className="pRole">Business Accounting<br/>Development Specialist</p>
@@ -90,7 +95,7 @@ const About = () => {
                </div>
 
                <div id='M4' className="members">
-               <img src="../src/assets/Screenshot (117).png" alt='Boipelo' />
+               <img src={src4} alt='Boipelo' />
                 <div>
                 <p className="pNames">Boipelo Maringa </p>
                 <p className="pRole">Business and Personal <br/>Finance Specialist</p>
