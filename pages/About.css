@@ -5,10 +5,16 @@
 
 }
 
+#abouth1 {
+
+    position: relative;
+    left: 50vh;
+}
+
 #div_wwa{
     width: 90vh;
     position: relative;
-    left:10vh;
+    left:50vh;
 }
 
 .pNames, .pRole{
@@ -49,5 +55,6 @@ img{
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
+
 }
 
